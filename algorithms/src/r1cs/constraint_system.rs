@@ -13,6 +13,7 @@
 // limitations under the License.
 
 use crate::r1cs::{errors::SynthesisError, Index, LinearCombination, Namespace, Variable};
+use anyhow::Result;
 use snarkvm_fields::Field;
 
 use std::marker::PhantomData;
